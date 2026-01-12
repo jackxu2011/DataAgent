@@ -33,9 +33,9 @@ import org.springframework.web.multipart.MultipartFile;
 @AllArgsConstructor
 public class SemanticModelServiceImpl implements SemanticModelService {
 
-  private final SemanticModelMapper semanticModelMapper;
+	private final SemanticModelMapper semanticModelMapper;
 
-  private final AgentDatasourceMapper agentDatasourceMapper;
+	private final AgentDatasourceMapper agentDatasourceMapper;
 
 	private final SemanticModelExcelService excelService;
 
